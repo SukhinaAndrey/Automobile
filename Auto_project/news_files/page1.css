@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 2.1em;
+    margin: 5% 7% 5% 7%;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr{
+    border: 0;
+    border-bottom: 1px solid rgb(163, 162, 162);
+    height: 1px;
+}
+
+.lighter{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background: rgb(247, 243, 243);
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin-left: 7%;
+    margin-right: 7%; 
+}
+
+.under_header{
+    width: 100%;
+    height: 10vh;
+}
+
+.header_menu {
+    width: 100%;
+    height: 10vh;
+    background: rgb(247, 243, 243);
+    position: fixed; 
+    z-index: 1;
+}
+
+.ol_header_menu {
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-left: 20%;
+    height: 100%;
+    width: 60%;
+}
+
+.li_header_menu {
+    text-align: center;
+    float: left;
+    position: relative;
+    height: 100%;
+    width: 33.3%;
+    font-size: 20px;
+    color: rgb(42, 44, 38);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.li_header_menu:hover {
+    background: rgb(224, 223, 223);
+}
+
+.li_header_menu:hover .lighter{
+    background: rgb(89, 89, 245);
+}
+
+.bmwcollection{
+    width: 86%;
+    margin-left: 7%;
+    max-width: 100%;
+}
+
+.content{
+    width: 100%;
+}
+
+.footer_menu {
+    width: 100%;
+    height: 30vh;
+    background: rgb(219, 218, 218);
+}
+
+
+
+@media (max-width: 992px),
+(max-height: 620px) {
+    body{
+        font-size: 14.6px;
+    }
+
+    .li_header_menu {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    body{
+        font-size: 13.6px;
+    }
+
+    .li_header_menu {
+        font-size: 17.5px;
+    }
+}
+
+@media (max-width: 524px) {
+
+    body{
+        font-size: 12.9px;
+    }
+
+    .li_header_menu {
+        font-size: 15.4px;
+    }
+}
+
+
+
+@media (max-height: 400px){
+
+    body{
+        font-size: 13.6px;
+    }
+
+    .header_menu{
+        height: 15vh;
+    }
+
+    .under_header{
+        height: 15vh;
+    }
+
+    .li_header_menu {
+        font-size: 14.5px;
+    }
+
+}
+
+@media (max-height: 296px){
+    body{
+        font-size: 12.9px;
+    }
+
+    .header_menu{
+        height: 20vh;
+    }
+
+    .under_header{
+        height: 20vh;
+    }
+    
+    .li_header_menu {
+        font-size: 12.4px;
+    }
+}
